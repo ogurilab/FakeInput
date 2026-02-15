@@ -3,7 +3,7 @@ import './style.css'
 import { keyToText } from './key2textlogic'
 
 document.querySelector<HTMLDivElement>('#CustomIME')!.innerHTML = `
-  <h1>Custom IME</h1>
+  <h1>Fake Input</h1>
   <div id="inputArea"  tabindex="0" style="margin:0px; height:100px; background-color: #aaaaaa;">
     
   </div>
