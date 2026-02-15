@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '18'
-      - run: cd ./FakeInput
+      - run: cd ./FakeInput/FakeInput
       - run: ls
       - run: npm ci
       - run: npm run build
